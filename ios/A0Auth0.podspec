@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { "auth0" => "oss@auth0.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/author/A0Auth0.git", :tag => "master" }
-  s.source_files  = "A0Auth0/**/*.{h,m}"
+  s.source_files  = "*.{h,m}"
   s.requires_arc = true
 
 
